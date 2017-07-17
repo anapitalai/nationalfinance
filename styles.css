@@ -1,0 +1,20 @@
+   html{box-sizing:border-box;
+       font-size:16px;
+     }
+
+     *, *:before, *:after {
+       box-sizing:inherit;
+     }
+     body { 
+        text-align: center;
+        font-size:10px;
+  }
+.logo{
+    background-image: url("../image/nf.png");
+}
+.display-result{
+    font-size: 40px;
+}
+.jumbtron{
+    background-color:#f2dede;
+}
