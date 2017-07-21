@@ -53,14 +53,14 @@ interestInputHandle.addEventListener('input', calculate);
 fortnightlyViewHandle.addEventListener('input', calculate);
 
 //leaflet map
-var map = L.map('mapid').setView([-6.72811, 147.00072], 18);
+var map = L.map('mapid').setView([-6.72811, 147.00072], 15);
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 L.marker([-6.72811, 147.00072]).addTo(map)
-    .bindPopup('<h3>National Finance Office</h3>')
+    .bindPopup('<h4>National Finance Office</h4>')
     .openPopup();
 
 
